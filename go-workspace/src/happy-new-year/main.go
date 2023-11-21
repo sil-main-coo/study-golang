@@ -2,12 +2,12 @@ package main
 
 import (
 	"fmt"
-	stringHelper "happy-new-year/helpers"
+	"happy-new-year/helpers"
 	"validator"
 )
 
 func main() {
 	fmt.Println("This main func")
-	stringHelper.PutStringToIn()
+	helpers.PutStringToIn()
 	validator.CheckValidEmail()
 }
